@@ -1,3 +1,15 @@
+# using-the-github-api-in-your-app
+
+# 🚀 listens for webhook events and uses the Octokit.rb library to make REST API calls with Ruby 🚀
+
+### GitHub App Template for Auth with Ruby
+
+https://github.com/coding-to-music/using-the-github-api-in-your-app
+
+https://using-the-github-api-in-your-app.herokuapp.com
+
+by https://docs.github.com/en/developers/apps/guides/using-the-github-api-in-your-app
+
 This is an example GitHub App that adds a label to all new issues opened in a repository. You can follow the "[Using the GitHub API in your app](https://developer.github.com/apps/quickstart-guides/using-the-github-api-in-your-app/)" quickstart guide on developer.github.com to learn how to build the app code in `server.rb`.
 
 This project listens for webhook events and uses the Octokit.rb library to make REST API calls. This example project consists of two different servers:
@@ -21,4 +33,20 @@ To run the code, make sure you have [Bundler](https://bundler.io/) installed; th
 1. Run `ruby template_server.rb` or `ruby server.rb` on the command line.
 1. View the default Sinatra app at `localhost:3000`.
 
-https://docs.github.com/en/developers/apps/guides/using-the-github-api-in-your-app
+## GitHub
+
+```java
+git init
+git add .
+git remote remove origin
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:coding-to-music/using-the-github-api-in-your-app.git
+git push -u origin main
+```
+
+## deploy:
+
+```java
+git add . && git commit -m Build && git push
+```
