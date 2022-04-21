@@ -1,0 +1,20 @@
+{
+  "name": "using-the-github-api-in-your-app",
+  "version": "1.0.0",
+  "description": "This is an example GitHub App that adds a label to all new issues opened in a repository. You can follow the \"[Using the GitHub API in your app](https://developer.github.com/apps/quickstart-guides/using-the-github-api-in-your-app/)\" quickstart guide on developer.github.com to learn how to build the app code in `server.rb`.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "git add . && git commit -m Build && git push"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/github-developer/using-the-github-api-in-your-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/github-developer/using-the-github-api-in-your-app/issues"
+  },
+  "homepage": "https://github.com/github-developer/using-the-github-api-in-your-app#readme"
+}
